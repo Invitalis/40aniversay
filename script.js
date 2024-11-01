@@ -1,5 +1,5 @@
 function updateCountdown() {
-    const eventDate = new Date('December 22, 2024 15:00:00').getTime();
+    const eventDate = new Date('December 22, 2024 15:30:00').getTime();
     const now = new Date().getTime();
     const distance = eventDate - now;
 
@@ -15,7 +15,7 @@ function addToCalendar() {
         title: '40° Aniversario - Fredy & America',
         description: 'Celebración de Bodas de Rubí',
         location: 'Jardín versalles, calzada ebenezer, callejón giron, santo tomas milpas altas, sacatepéquez',
-        start: '2024-12-22T15:00:00',
+        start: '2024-12-22T15:30:00',
         end: '2024-12-22T23:00:00'
     };
 
