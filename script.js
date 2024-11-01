@@ -1,5 +1,5 @@
 function updateCountdown() {
-    const eventDate = new Date('December 22, 2024 19:00:00').getTime();
+    const eventDate = new Date('December 22, 2024 15:00:00').getTime();
     const now = new Date().getTime();
     const distance = eventDate - now;
 
@@ -14,8 +14,8 @@ function addToCalendar() {
     const eventDetails = {
         title: '40° Aniversario - Fredy & America',
         description: 'Celebración de Bodas de Rubí',
-        location: 'Salón Real, Ciudad de Guatemala',
-        start: '2024-12-22T19:00:00',
+        location: 'Jardín versalles, calzada ebenezer, callejón giron, santo tomas milpas altas, sacatepéquez',
+        start: '2024-12-22T15:00:00',
         end: '2024-12-22T23:00:00'
     };
 
@@ -25,13 +25,13 @@ function addToCalendar() {
 }
 
 function openMap() {
-    const mapUrl = 'https://maps.google.com/?q=Ciudad+de+Guatemala';
+    const mapUrl = 'https://maps.google.com/?q=Jardín+versalles,+calzada+ebenezer,+callejón+giron,+santo+tomas+milpas+altas,+sacatepéquez';
     window.open(mapUrl, '_blank');
 }
 
 function confirmAssistance() {
     const message = encodeURIComponent('¡Hola! Confirmo mi asistencia al 40° Aniversario de Fredy & America');
-    const whatsappUrl = `https://wa.me/+50235435006?text=${message}`;
+    const whatsappUrl = `https://wa.me/+50244675393?text=${message}`;
     window.open(whatsappUrl, '_blank');
 }
 

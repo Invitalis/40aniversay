@@ -195,7 +195,7 @@ header {
 
 .dress-code {
     margin: 20px auto;
-    padding: 11px;
+    padding: 7px;
     background: rgba(155, 17, 30, 0.1);
     border: 1px solid var(--primary-color);
     border-radius: 8px;
@@ -204,7 +204,7 @@ header {
 
 .dress-code-text {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 500;
     color: var(--primary-color);
     text-transform: uppercase;
@@ -269,7 +269,7 @@ header {
 
 .gift-message {
     font-family: 'Dancing Script', cursive;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: var(--text-light);
     margin: 20px 0;
     padding: 0 20px;
